@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+app.disable("x-powered-by");
 
 const homeRouter = require('./routes/home');
 const operationsRouter = require('./routes/operations');
@@ -13,9 +14,3 @@ app.use('/', homeRouter);
 app.use('/operations', operationsRouter);
 
 module.exports = app;
-
-const port = 3000
-
-app.listen(port, () => {
-    console.log('Rodando na porta ' + port)
-})
