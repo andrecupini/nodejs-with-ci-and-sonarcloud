@@ -1,6 +1,0 @@
-projectKey=nodejs-with-ci-and-sonarcloud
-serverUrl=http://localhost:9000
-serverVersion=8.9.10.61524
-dashboardUrl=http://localhost:9000/dashboard?id=nodejs-with-ci-and-sonarcloud
-ceTaskId=AYUxDwuOM6e59KYLomG2
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AYUxDwuOM6e59KYLomG2
